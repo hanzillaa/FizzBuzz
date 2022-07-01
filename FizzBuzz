@@ -1,0 +1,13 @@
+
+array = [3,4,15,6,2,8,18,20,24,30,40,55,61]
+
+for i in array:
+    if i % 3 == 0 and i % 5 == 0:
+        print("FizzBuzz")
+    elif i % 3 == 0:
+        print("Fizz")
+    elif i % 5 == 0:
+        print("Buzz")
+    else:
+        print(i)
+
